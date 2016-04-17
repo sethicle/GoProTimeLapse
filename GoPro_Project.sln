@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NetduinoApplication1", "NetduinoApplication1\NetduinoApplication1.vbproj", "{0600A908-FC7A-4185-8CD5-B1000E86B94C}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GoPro_TL", "NetduinoApplication1\GoPro_TL.vbproj", "{0600A908-FC7A-4185-8CD5-B1000E86B94C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

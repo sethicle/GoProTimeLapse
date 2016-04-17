@@ -17,7 +17,6 @@ Module GoPro_TimeLapse
         Dim TimeSecond As Double = DateTime.Now.Second
         Dim led = New OutputPort(Pins.ONBOARD_LED, False)
         Dim CamRelay = New OutputPort(Pins.GPIO_PIN_D5, False)
-        Dim TimeDay As String
 
         RTC.SetTime(Year:=2016, Month:=4, Day:=13, Hour:=23, Minute:=6, Second:=30) 'time set to current time. set once at initial install then commented.
         RTC.Synchronize()
@@ -46,11 +45,9 @@ Module GoPro_TimeLapse
     End Sub
     Sub Photo()
         Dim RTC As DS1307 = New DS1307()
-        Dim TimeHour As String
         Dim TimeSecond As Double = DateTime.Now.Second
         Dim led = New OutputPort(Pins.ONBOARD_LED, False)
         Dim CamRelay = New OutputPort(Pins.GPIO_PIN_D5, False)
-        Dim TimeDay As String
         Dim PhotoCount As Integer = 0
         Dim lastphoto As String
 
